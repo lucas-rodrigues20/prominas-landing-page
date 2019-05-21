@@ -14,7 +14,9 @@ body {
 #showcase {
   position: relative;
   background: url("../img/working.jpg");
-  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   min-height: 500px;
 }
 

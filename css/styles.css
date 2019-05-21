@@ -47,6 +47,11 @@ footer {
 }
 
 @media (max-width: 575.98px) {
+  #navbar img {
+    width: 90px;
+    height: 30px;
+  }
+
   #showcase h1 {
     font-size: 3rem;
   }

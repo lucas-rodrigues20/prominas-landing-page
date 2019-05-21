@@ -1,9 +1,28 @@
 body {
-  /*background-color: #30a836;*/
   background-color: #fff;
 }
 
 .navbar {
   box-shadow: 2px 2px 5px #056803;
   opacity: 0.9;
+}
+
+#showcase {
+  position: relative;
+  background: url("../img/working.jpg");
+  background-size: auto;
+  min-height: 500px;
+}
+
+#showcase h1, #showcase .lead {
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+}
+
+#showcase .primary-overlay {
+  background: rgba(6, 106, 3, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

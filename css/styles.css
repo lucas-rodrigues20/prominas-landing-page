@@ -1,3 +1,9 @@
-h1 {
-    color: #F00;
+body {
+  /*background-color: #30a836;*/
+  background-color: #fff;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #056803;
+  opacity: 0.9;
 }

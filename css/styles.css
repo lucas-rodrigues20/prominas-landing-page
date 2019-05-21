@@ -45,3 +45,9 @@ footer {
   background-color: #146418;
   font-size: 0.8rem;
 }
+
+@media (max-width: 575.98px) {
+  #showcase h1 {
+    font-size: 3rem;
+  }
+}

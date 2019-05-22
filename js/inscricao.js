@@ -42,4 +42,4 @@ const Inscricao = (function() {
 
 })();
 
-Inscricao.init(Utils, BSAlert, false);
+Inscricao.init(Utils, BSAlert);

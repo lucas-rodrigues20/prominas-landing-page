@@ -69,6 +69,18 @@ footer ul li a:hover {
   color: #28a745;
 }
 
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.05);
+}
+
+footer .grow:hover {
+  transform: scale(1.4);
+}
+
 @media (max-width: 575.98px) {
   #navbar img {
     width: 90px;

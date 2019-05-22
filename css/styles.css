@@ -39,6 +39,7 @@ body {
 
 #video {
   background-color: #056803;
+  background-image: linear-gradient(180deg, #44a178 0%, #28a745 51%, #25892a 95%);
 }
 
 .video-container {

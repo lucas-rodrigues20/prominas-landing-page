@@ -1,6 +1,7 @@
 const BSAlert = (function() {
 
   const $alertContainer = $('.alert-container');
+  const $leadAlertContainer = $('.lead-alert-container');
 
   function _generateHTML(message) {
     return `
@@ -13,9 +14,14 @@ const BSAlert = (function() {
     `;
   }
 
-  function render(message) {
-    $alertContainer.html(_generateHTML(message));
-    $alertContainer.find(".alert").fadeIn();
+  function render(message, isLead) {
+    if (isLead) {
+      $leadAlertContainer.html(_generateHTML(message));
+      $leadAlertContainer.find(".alert").fadeIn();
+    } else {
+      $alertContainer.html(_generateHTML(message));
+      $alertContainer.find(".alert").fadeIn();
+    }
   }
 
   return { render };

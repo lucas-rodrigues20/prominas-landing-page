@@ -33,6 +33,10 @@ body {
   height: 100%;
 }
 
+#showcase .card {
+  opacity: 0.8;
+}
+
 #por-que .card i {
   color: #146418;
 }

@@ -46,6 +46,14 @@ footer {
   font-size: 0.8rem;
 }
 
+footer ul li a {
+  color: #fff;
+}
+
+footer ul li a:hover {
+  color: #28a745;
+}
+
 @media (max-width: 575.98px) {
   #navbar img {
     width: 90px;

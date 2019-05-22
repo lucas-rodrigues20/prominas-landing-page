@@ -106,3 +106,23 @@ footer .grow:hover {
     margin-top: .25rem !important;
   }
 }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #showcase h1 {
+    font-size: 3.5rem;
+  }
+
+  #showcase a {
+    margin-top: .25rem !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #showcase h1 {
+    font-size: 4rem;
+  }
+
+  #showcase a {
+    margin-top: .25rem !important;
+  }
+}
